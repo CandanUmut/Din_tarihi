@@ -1,6 +1,4 @@
-harika istek! aşağıya cebine at-çıkart tarzı, hızlı hatırlanır tevhid delillerini başlık başlık, ayet/hadis, Risale-i Nur, ve aklî/kevni (doğa) delillerle bir araya getirdim. hepsini tek bir oturuşta ezberlemek zorunda değilsin; ihtiyaç anında başlık başlık kullanabilirsin.
 
-⸻
 
 A) Kur’ân’dan Tevhid Delilleri (seçme ayetlerle)
 	•	Bozulmaz düzen delili: “Göklerde ve yerde Allah’tan başka ilahlar olsaydı ikisi de kesinlikle bozulurdu.” (Enbiyâ 21:22)
