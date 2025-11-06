@@ -42,6 +42,7 @@ class AppLocalizations {
       'search_hint': 'Search lessons, prophets, or themes',
       'empty_state': 'Nothing here yet',
       'error_state': 'Something went wrong',
+      'view_all': 'View all',
       'language_turkish': 'Turkish',
       'language_english': 'English',
       'continue_learning': 'Continue where you left',
@@ -92,6 +93,7 @@ class AppLocalizations {
       'search_hint': 'Ders, peygamber veya tema ara',
       'empty_state': 'Henüz içerik yok',
       'error_state': 'Bir şeyler ters gitti',
+      'view_all': 'Tümünü gör',
       'language_turkish': 'Türkçe',
       'language_english': 'İngilizce',
       'continue_learning': 'Kaldığın yerden devam et',
@@ -172,6 +174,7 @@ class AppLocalizations {
   String get mapNotes => _translate('map_notes');
   String get today => _translate('today');
   String get searchResults => _translate('search_results');
+  String get viewAll => _translate('view_all');
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {
