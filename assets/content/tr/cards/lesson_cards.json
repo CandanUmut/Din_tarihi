@@ -1,0 +1,44 @@
+[
+  {
+    "id": "faith-1",
+    "title": "Îman Nedir?",
+    "level": "başlangıç",
+    "tradition": "İslam",
+    "core_texts": ["Bakara 2:285", "Hadis: Cibril"],
+    "summary": "Îman, Allah'a, meleklerine, kitaplarına, peygamberlerine, ahiret gününe ve kadere tasdiktir; şükür ve ahlâkı besler.",
+    "key_points": ["İmanın altı şartı", "Allah'a güven", "Amelle artan iman"],
+    "discussion_questions": ["Hangi rükün seni düşündürüyor?", "İman günlük hayatı nasıl değiştirir?"],
+    "quiz_mcq": [
+      {"q": "İmanın kaç şartı var?", "options": ["3", "4", "5", "6"], "answer": "6"}
+    ],
+    "tags": ["iman", "temeller"]
+  },
+  {
+    "id": "prayer-1",
+    "title": "Namazın Ritmi",
+    "level": "başlangıç",
+    "tradition": "İslam",
+    "core_texts": ["Bakara 2:43", "Hadis: Namaz nurdur"],
+    "summary": "Beş vakit namaz mümini merkeze alır; kalbi arındırır, zamanı zikre göre düzenler.",
+    "key_points": ["Beş vakit", "Disiplin", "Cemaat"],
+    "discussion_questions": ["Namaz vakitlerini nasıl korursun?", "Hușûya ne yardım eder?"],
+    "quiz_mcq": [
+      {"q": "Günde kaç vakit namaz?", "options": ["3", "4", "5", "6"], "answer": "5"}
+    ],
+    "tags": ["ibadet", "pratik"]
+  },
+  {
+    "id": "character-1",
+    "title": "Nebevî Ahlâk",
+    "level": "orta",
+    "tradition": "İslam",
+    "core_texts": ["Kalem 68:4", "Hadis: En hayırlınız ahlâkta"],
+    "summary": "Resûlullah ﷺ merhamet, adalet ve sabrı kuşanmıştı; güzel ahlâk mizanda en ağır ameldir.",
+    "key_points": ["Merhamet", "Adalet", "Sabır"],
+    "discussion_questions": ["Hangi hasleti büyütmek istersin?", "Merhameti nasıl yaşatırsın?"],
+    "quiz_mcq": [
+      {"q": "Mizanda en ağır olan?", "options": ["Servet", "Soy", "Güzel ahlâk", "Güç"], "answer": "Güzel ahlâk"}
+    ],
+    "tags": ["ahlak", "edep"]
+  }
+]

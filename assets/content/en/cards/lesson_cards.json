@@ -1,0 +1,142 @@
+[
+  {
+    "id": "faith-1",
+    "title": "What is Īmān (Faith)?",
+    "level": "beginner",
+    "tradition": "Islam",
+    "core_texts": ["Qur'an 2:285", "Hadith Jibril (Bukhari/Muslim)"],
+    "summary": "Faith is to affirm Allah, His angels, scriptures, messengers, the Last Day, and destiny. It awakens gratitude and moral courage.",
+    "key_points": ["Six pillars of faith", "Trust in Allah", "Faith grows with action"],
+    "discussion_questions": ["Which pillar speaks to you today?", "How does faith impact daily life?"],
+    "quiz_mcq": [
+      {"q": "How many pillars of faith?", "options": ["3", "4", "5", "6"], "answer": "6"}
+    ],
+    "tags": ["faith", "foundations"]
+  },
+  {
+    "id": "prayer-1",
+    "title": "The Rhythm of Salah",
+    "level": "beginner",
+    "tradition": "Islam",
+    "core_texts": ["Qur'an 2:43", "Hadith: 'Prayer is light'"],
+    "summary": "Five daily prayers anchor the believer, cleansing the heart and structuring time around remembrance of God.",
+    "key_points": ["Five times daily", "Spiritual discipline", "Community"],
+    "discussion_questions": ["How do you protect salah times?", "What helps you find khushu'?"],
+    "quiz_mcq": [
+      {"q": "How many daily prayers?", "options": ["3", "4", "5", "6"], "answer": "5"}
+    ],
+    "tags": ["practice", "worship"]
+  },
+  {
+    "id": "character-1",
+    "title": "Prophetic Character",
+    "level": "intermediate",
+    "tradition": "Islam",
+    "core_texts": ["Qur'an 68:4", "Hadith: 'Best in character'"],
+    "summary": "The Prophet ﷺ embodied mercy, justice, and patience; good character is the heaviest deed on the scale.",
+    "key_points": ["Mercy", "Justice", "Patience"],
+    "discussion_questions": ["Which trait do you want to grow?", "How do you show prophetic mercy?"],
+    "quiz_mcq": [
+      {"q": "What weighs heaviest?", "options": ["Wealth", "Lineage", "Good character", "Power"], "answer": "Good character"}
+    ],
+    "tags": ["ethics", "manners"]
+  },
+  {
+    "id": "neighbors-1",
+    "title": "Rights of Neighbors",
+    "level": "intermediate",
+    "tradition": "Islam",
+    "core_texts": ["Qur'an 4:36", "Bukhari"],
+    "summary": "Kindness to neighbors is near to kinship; feeding, protecting, and never harming them is a sign of faith.",
+    "key_points": ["Care", "Protection", "Justice"],
+    "discussion_questions": ["How can you support neighbors?", "What boundaries maintain harmony?"],
+    "quiz_mcq": [
+      {"q": "Prophetic teaching:", "options": ["Ignore", "Exploit", "Care", "Compete"], "answer": "Care"}
+    ],
+    "tags": ["community", "ethics"]
+  },
+  {
+    "id": "family-1",
+    "title": "Family the Prophetic Way",
+    "level": "beginner",
+    "tradition": "Islam",
+    "core_texts": ["Qur'an 17:23-24", "Qur'an 30:21"],
+    "summary": "Honoring parents, cherishing spouses, and nurturing children bring tranquility and mercy into the home.",
+    "key_points": ["Parents", "Spouses", "Children"],
+    "discussion_questions": ["How do you practice mercy at home?", "What heals family conflicts?"],
+    "quiz_mcq": [
+      {"q": "Highest emphasis:", "options": ["Ignore parents", "Honor parents", "Boast lineage", "Seek wealth"], "answer": "Honor parents"}
+    ],
+    "tags": ["family", "rights"]
+  },
+  {
+    "id": "charity-1",
+    "title": "Zakat & Sadaqah",
+    "level": "beginner",
+    "tradition": "Islam",
+    "core_texts": ["Qur'an 2:271", "Qur'an 9:60"],
+    "summary": "Charity purifies wealth, heals the heart, and secures communities against poverty and neglect.",
+    "key_points": ["Purification", "Solidarity", "Justice"],
+    "discussion_questions": ["How can giving be consistent?", "Which causes need help?"],
+    "quiz_mcq": [
+      {"q": "Zakat rate on savings?", "options": ["1%", "2.5%", "5%", "10%"], "answer": "2.5%"}
+    ],
+    "tags": ["charity", "economics"]
+  },
+  {
+    "id": "fasting-1",
+    "title": "Ramaḍān Fasting",
+    "level": "beginner",
+    "tradition": "Islam",
+    "core_texts": ["Qur'an 2:183"],
+    "summary": "Fasting trains taqwā, empathy, and discipline; Ramaḍān renews the heart through Qur’an and night prayer.",
+    "key_points": ["Taqwā", "Empathy", "Discipline"],
+    "discussion_questions": ["How do you plan for Ramaḍān?", "What habits stay afterwards?"],
+    "quiz_mcq": [
+      {"q": "Primary goal of fasting?", "options": ["Fame", "Weight loss", "Taqwā", "Business"], "answer": "Taqwā"}
+    ],
+    "tags": ["fasting", "spirituality"]
+  },
+  {
+    "id": "hajj-1",
+    "title": "Ḥajj: Pilgrimage",
+    "level": "intermediate",
+    "tradition": "Islam",
+    "core_texts": ["Qur'an 22:27"],
+    "summary": "Pilgrimage gathers the ummah around the House built by Ibrahim and Ismail, recalling sacrifice and unity.",
+    "key_points": ["Unity", "Sacrifice", "Remembrance"],
+    "discussion_questions": ["What lessons from Hajj?", "How to live Hajj virtues daily?"],
+    "quiz_mcq": [
+      {"q": "Who must perform Hajj?", "options": ["All", "Only scholars", "Able Muslims", "None"], "answer": "Able Muslims"}
+    ],
+    "tags": ["pilgrimage", "unity"]
+  },
+  {
+    "id": "knowledge-1",
+    "title": "Seeking Knowledge",
+    "level": "beginner",
+    "tradition": "Islam",
+    "core_texts": ["Qur'an 20:114", "Hadith: 'Seek knowledge'"],
+    "summary": "Learning with humility and practice is worship; it begins with sincere intention and steady effort.",
+    "key_points": ["Intention", "Humility", "Practice"],
+    "discussion_questions": ["Who mentors you?", "How do you review knowledge?"],
+    "quiz_mcq": [
+      {"q": "First revealed word?", "options": ["Pray", "Read", "Fight", "Give"], "answer": "Read"}
+    ],
+    "tags": ["education", "intention"]
+  },
+  {
+    "id": "dialogue-1",
+    "title": "Interfaith Friendship",
+    "level": "intermediate",
+    "tradition": "Interfaith",
+    "core_texts": ["Qur'an 29:46"],
+    "summary": "Speak with excellence, affirm shared values, and collaborate for the common good while staying sincere to Islam.",
+    "key_points": ["Courtesy", "Shared values", "Cooperation"],
+    "discussion_questions": ["How to build interfaith trust?", "What projects serve neighbors?"],
+    "quiz_mcq": [
+      {"q": "Q 29:46 teaches to speak?", "options": ["Harsh", "Mock", "Best words", "Silence"], "answer": "Best words"}
+    ],
+    "tags": ["dialogue", "community"]
+  }
+]
