@@ -3,8 +3,6 @@ import 'package:flutter/material.dart';
 import 'app_colors.dart';
 import 'app_typography.dart';
 
-final themeModeProvider = ValueNotifier(ThemeMode.system);
-
 class AppTheme {
   const AppTheme._();
 

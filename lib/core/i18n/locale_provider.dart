@@ -3,19 +3,17 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 final localeProvider = StateNotifierProvider<LocaleNotifier, Locale?>((ref) {
-  return LocaleNotifier(ref.read);
+  return LocaleNotifier();
 });
 
 final themeModeProvider = StateNotifierProvider<ThemeModeNotifier, ThemeMode>((ref) {
-  return ThemeModeNotifier(ref.read);
+  return ThemeModeNotifier();
 });
 
 class LocaleNotifier extends StateNotifier<Locale?> {
-  LocaleNotifier(this._read) : super(null) {
+  LocaleNotifier() : super(null) {
     _load();
   }
-
-  final Reader _read;
 
   Future<void> _load() async {
     final prefs = await SharedPreferences.getInstance();
@@ -33,11 +31,9 @@ class LocaleNotifier extends StateNotifier<Locale?> {
 }
 
 class ThemeModeNotifier extends StateNotifier<ThemeMode> {
-  ThemeModeNotifier(this._read) : super(ThemeMode.system) {
+  ThemeModeNotifier() : super(ThemeMode.system) {
     _load();
   }
-
-  final Reader _read;
 
   Future<void> _load() async {
     final prefs = await SharedPreferences.getInstance();

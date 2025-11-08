@@ -22,17 +22,13 @@ class LessonDetailScreen extends ConsumerWidget {
     final asyncCards = ref.watch(lessonCardsProvider);
     return asyncCards.when(
       data: (lessons) {
-        LessonCard? lesson;
-        try {
-          lesson = lessons.firstWhere((element) => element.id == lessonId);
-        } catch (_) {
-          lesson = null;
-        }
-        if (lesson == null) {
+        final lessonIndex = lessons.indexWhere((element) => element.id == lessonId);
+        if (lessonIndex == -1) {
           return const Scaffold(
             body: ErrorState(message: 'This lesson could not be found.'),
           );
         }
+        final lesson = lessons[lessonIndex];
         final theme = Theme.of(context);
         return Scaffold(
           body: SafeArea(
