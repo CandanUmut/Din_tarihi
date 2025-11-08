@@ -6,6 +6,7 @@ class UserPrefs {
     required this.onboardingDone,
     required this.reminderHour,
     required this.reminderMinute,
+    required this.textScale,
   });
 
   factory UserPrefs.fromJson(Map<String, dynamic> json) {
@@ -16,6 +17,7 @@ class UserPrefs {
       onboardingDone: json['onboardingDone'] as bool,
       reminderHour: json['reminderHour'] as int,
       reminderMinute: json['reminderMinute'] as int,
+      textScale: (json['textScale'] as num?)?.toDouble() ?? 1.0,
     );
   }
 
@@ -25,6 +27,7 @@ class UserPrefs {
   final bool onboardingDone;
   final int reminderHour;
   final int reminderMinute;
+  final double textScale;
 
   UserPrefs copyWith({
     String? lang,
@@ -32,6 +35,7 @@ class UserPrefs {
     bool? onboardingDone,
     int? reminderHour,
     int? reminderMinute,
+    double? textScale,
   }) {
     return UserPrefs(
       id: id,
@@ -40,6 +44,7 @@ class UserPrefs {
       onboardingDone: onboardingDone ?? this.onboardingDone,
       reminderHour: reminderHour ?? this.reminderHour,
       reminderMinute: reminderMinute ?? this.reminderMinute,
+      textScale: textScale ?? this.textScale,
     );
   }
 
@@ -50,6 +55,7 @@ class UserPrefs {
         'onboardingDone': onboardingDone,
         'reminderHour': reminderHour,
         'reminderMinute': reminderMinute,
+        'textScale': textScale,
       };
 
   static const defaultPrefs = UserPrefs(
@@ -59,5 +65,6 @@ class UserPrefs {
     onboardingDone: false,
     reminderHour: 20,
     reminderMinute: 0,
+    textScale: 1.0,
   );
 }
