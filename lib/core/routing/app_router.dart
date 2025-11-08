@@ -5,6 +5,7 @@ import 'package:go_router/go_router.dart';
 import '../../data/models/user_prefs.dart';
 import '../../features/explore/explore_screen.dart';
 import '../../features/history/history_timeline_screen.dart';
+import '../../features/history/prophet_detail_screen.dart';
 import '../../features/home/home_screen.dart';
 import '../../features/lessons/flashcard_flow.dart';
 import '../../features/lessons/lesson_detail_screen.dart';
@@ -50,6 +51,14 @@ final appRouterProvider = Provider<GoRouter>((ref) {
           GoRoute(
             path: 'history',
             builder: (context, state) => const HistoryTimelineScreen(),
+            routes: [
+              GoRoute(
+                path: 'prophets/:id',
+                builder: (context, state) => ProphetDetailScreen(
+                  prophetId: state.pathParameters['id']!,
+                ),
+              ),
+            ],
           ),
           GoRoute(
             path: 'research',

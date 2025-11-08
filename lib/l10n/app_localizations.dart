@@ -37,6 +37,7 @@ class AppLocalizations {
       'flashcards': 'Flashcards',
       'read_now': 'Read now',
       'mark_done': 'Mark as done',
+      'mark_done_success': 'Marked as completed',
       'daily_goal_prompt': 'How many minutes would you like to learn daily?',
       'reminder_banner': 'Enable reminders to keep your streak thriving.',
       'search_hint': 'Search lessons, prophets, or themes',
@@ -62,6 +63,11 @@ class AppLocalizations {
       'save': 'Save',
       'timeline_title': 'Prophetic timeline',
       'map_notes': 'Map notes',
+      'history_themes': 'Themes',
+      'history_key_events': 'Key events',
+      'history_virtues': 'Virtues to emulate',
+      'history_study_prompts': 'Reflection prompts',
+      'history_further_reading': 'Further reading',
       'today': 'Today',
       'search_results': 'Search results',
       'settings_appearance': 'Appearance',
@@ -76,6 +82,28 @@ class AppLocalizations {
       'achievement_unlocked': 'Unlocked',
       'achievement_locked': 'Locked',
       'achievement_progress': '{percent}% complete',
+      'progress_header_hint':
+          'Stay consistent — every completed lesson updates this tracker instantly.',
+      'bookmark_label': 'Bookmark',
+      'bookmark_updated': 'Bookmark updated',
+      'take_quiz': 'Take quiz',
+      'lesson_overview': 'Lesson overview',
+      'lesson_overview_subtitle': 'Key context before you dive into the source texts.',
+      'lesson_key_takeaways': 'Key takeaways',
+      'lesson_key_takeaways_subtitle':
+          'Review the essential ideas distilled from this lesson.',
+      'lesson_discussion_prompts': 'Discussion prompts',
+      'lesson_discussion_prompts_subtitle':
+          'Use these to spark reflections or group conversation.',
+      'lesson_primary_sources': 'Primary sources',
+      'lesson_primary_sources_subtitle':
+          'Authentic references to verify and expand your understanding.',
+      'lesson_study_tools': 'Study tools',
+      'lesson_study_tools_subtitle':
+          'Mark progress, save for later, or test your knowledge.',
+      'lesson_level': 'Level',
+      'lesson_tradition': 'Tradition',
+      'lesson_core_texts_count': '{count} core texts',
       'achievement_first_steps_title': 'First steps',
       'achievement_first_steps_desc': 'Complete your very first lesson from start to finish.',
       'achievement_consistent_scholar_title': 'Consistent scholar',
@@ -113,6 +141,7 @@ class AppLocalizations {
       'flashcards': 'Kartlar',
       'read_now': 'Şimdi oku',
       'mark_done': 'Tamamlandı',
+      'mark_done_success': 'Ders tamamlandı olarak işaretlendi',
       'daily_goal_prompt': 'Günde kaç dakika öğrenmek istersin?',
       'reminder_banner': 'Serini korumak için hatırlatmaları aç.',
       'search_hint': 'Ders, peygamber veya tema ara',
@@ -138,6 +167,11 @@ class AppLocalizations {
       'save': 'Kaydet',
       'timeline_title': 'Peygamberler kronolojisi',
       'map_notes': 'Harita notları',
+      'history_themes': 'Temalar',
+      'history_key_events': 'Önemli olaylar',
+      'history_virtues': 'Örnek alınacak erdemler',
+      'history_study_prompts': 'Tefekkür soruları',
+      'history_further_reading': 'Ek okumalar',
       'today': 'Bugün',
       'search_results': 'Arama sonuçları',
       'settings_appearance': 'Görünüm',
@@ -152,6 +186,28 @@ class AppLocalizations {
       'achievement_unlocked': 'Açıldı',
       'achievement_locked': 'Kilitli',
       'achievement_progress': '%{percent} tamamlandı',
+      'progress_header_hint':
+          'İstikrarlı kal — her tamamlanan ders bu göstergede hemen görünür.',
+      'bookmark_label': 'Kaydet',
+      'bookmark_updated': 'Kaydedilenler güncellendi',
+      'take_quiz': 'Sınava gir',
+      'lesson_overview': 'Ders özeti',
+      'lesson_overview_subtitle': 'Kaynak metinlere girmeden önceki temel bağlam.',
+      'lesson_key_takeaways': 'Öne çıkanlar',
+      'lesson_key_takeaways_subtitle':
+          'Bu dersten süzülen temel fikirleri tekrar et.',
+      'lesson_discussion_prompts': 'Tartışma soruları',
+      'lesson_discussion_prompts_subtitle':
+          'Bunları bireysel veya grup tefekkürü için kullan.',
+      'lesson_primary_sources': 'Birincil kaynaklar',
+      'lesson_primary_sources_subtitle':
+          'Bilgini doğrulamak ve genişletmek için özgün referanslar.',
+      'lesson_study_tools': 'Çalışma araçları',
+      'lesson_study_tools_subtitle':
+          'İlerlemeni işaretle, kaydet veya bilgini test et.',
+      'lesson_level': 'Seviye',
+      'lesson_tradition': 'Gelenek',
+      'lesson_core_texts_count': '{count} temel metin',
       'achievement_first_steps_title': 'İlk adımlar',
       'achievement_first_steps_desc': 'İlk dersini baştan sona tamamla.',
       'achievement_consistent_scholar_title': 'İstikrarlı talebe',
@@ -197,6 +253,7 @@ class AppLocalizations {
   String get flashcards => _translate('flashcards');
   String get readNow => _translate('read_now');
   String get markDone => _translate('mark_done');
+  String get markDoneSuccess => _translate('mark_done_success');
   String get dailyGoalPrompt => _translate('daily_goal_prompt');
   String get reminderBanner => _translate('reminder_banner');
   String get searchHint => _translate('search_hint');
@@ -222,6 +279,11 @@ class AppLocalizations {
   String get save => _translate('save');
   String get timelineTitle => _translate('timeline_title');
   String get mapNotes => _translate('map_notes');
+  String get historyThemes => _translate('history_themes');
+  String get historyKeyEvents => _translate('history_key_events');
+  String get historyVirtues => _translate('history_virtues');
+  String get historyStudyPrompts => _translate('history_study_prompts');
+  String get historyFurtherReading => _translate('history_further_reading');
   String get today => _translate('today');
   String get searchResults => _translate('search_results');
   String get viewAll => _translate('view_all');
@@ -239,6 +301,28 @@ class AppLocalizations {
   String get achievementLocked => _translate('achievement_locked');
   String achievementProgress(String percent) =>
       _translate('achievement_progress').replaceFirst('{percent}', percent);
+  String get progressHeaderHint => _translate('progress_header_hint');
+  String get bookmarkLabel => _translate('bookmark_label');
+  String get bookmarkUpdated => _translate('bookmark_updated');
+  String get takeQuiz => _translate('take_quiz');
+  String get lessonOverview => _translate('lesson_overview');
+  String get lessonOverviewSubtitle => _translate('lesson_overview_subtitle');
+  String get lessonKeyTakeaways => _translate('lesson_key_takeaways');
+  String get lessonKeyTakeawaysSubtitle =>
+      _translate('lesson_key_takeaways_subtitle');
+  String get lessonDiscussionPrompts => _translate('lesson_discussion_prompts');
+  String get lessonDiscussionPromptsSubtitle =>
+      _translate('lesson_discussion_prompts_subtitle');
+  String get lessonPrimarySources => _translate('lesson_primary_sources');
+  String get lessonPrimarySourcesSubtitle =>
+      _translate('lesson_primary_sources_subtitle');
+  String get lessonStudyTools => _translate('lesson_study_tools');
+  String get lessonStudyToolsSubtitle =>
+      _translate('lesson_study_tools_subtitle');
+  String get lessonLevelLabel => _translate('lesson_level');
+  String get lessonTraditionLabel => _translate('lesson_tradition');
+  String lessonCoreTextsCount(int count) =>
+      _translate('lesson_core_texts_count').replaceFirst('{count}', count.toString());
   String translateKey(String key) => _translate(key);
   String readingTime(int minutes) =>
       _translate('reading_time').replaceFirst('{minutes}', minutes.toString());

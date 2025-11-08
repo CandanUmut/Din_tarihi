@@ -3,6 +3,7 @@ import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../data/models/lesson_card.dart';
+import '../../l10n/app_localizations.dart';
 import '../../providers/bookmark_providers.dart';
 import '../../providers/content_providers.dart';
 import '../../providers/progress_providers.dart';
@@ -19,13 +20,14 @@ class LessonDetailScreen extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final l10n = AppLocalizations.of(context);
     final asyncCards = ref.watch(lessonCardsProvider);
     return asyncCards.when(
       data: (lessons) {
         final lessonIndex = lessons.indexWhere((element) => element.id == lessonId);
         if (lessonIndex == -1) {
-          return const Scaffold(
-            body: ErrorState(message: 'This lesson could not be found.'),
+          return Scaffold(
+            body: ErrorState(message: l10n.errorState),
           );
         }
         final lesson = lessons[lessonIndex];
@@ -105,8 +107,8 @@ class LessonDetailScreen extends ConsumerWidget {
                   sliver: SliverList(
                     delegate: SliverChildListDelegate([
                       SectionHeader(
-                        title: 'Lesson overview',
-                        subtitle: 'Key context before you dive into the source texts.',
+                        title: l10n.lessonOverview,
+                        subtitle: l10n.lessonOverviewSubtitle,
                       ),
                       const SizedBox(height: 12),
                       AppCard(
@@ -121,15 +123,15 @@ class LessonDetailScreen extends ConsumerWidget {
                               children: [
                                 Chip(
                                   avatar: const Icon(Icons.school, size: 16),
-                                  label: Text('Level: ${lesson.level}'),
+                                  label: Text('${l10n.lessonLevelLabel}: ${lesson.level}'),
                                 ),
                                 Chip(
                                   avatar: const Icon(Icons.people_alt, size: 16),
-                                  label: Text('Tradition: ${lesson.tradition}'),
+                                  label: Text('${l10n.lessonTraditionLabel}: ${lesson.tradition}'),
                                 ),
                                 Chip(
                                   avatar: const Icon(Icons.menu_book, size: 16),
-                                  label: Text('${lesson.coreTexts.length} core texts'),
+                                  label: Text(l10n.lessonCoreTextsCount(lesson.coreTexts.length)),
                                 ),
                               ],
                             ),
@@ -138,8 +140,8 @@ class LessonDetailScreen extends ConsumerWidget {
                       ),
                       const SizedBox(height: 24),
                       SectionHeader(
-                        title: 'Key takeaways',
-                        subtitle: 'Review the essential ideas distilled from this lesson.',
+                        title: l10n.lessonKeyTakeaways,
+                        subtitle: l10n.lessonKeyTakeawaysSubtitle,
                       ),
                       const SizedBox(height: 12),
                       AppCard(
@@ -156,8 +158,8 @@ class LessonDetailScreen extends ConsumerWidget {
                       ),
                       const SizedBox(height: 24),
                       SectionHeader(
-                        title: 'Discussion prompts',
-                        subtitle: 'Use these to spark reflections or group conversation.',
+                        title: l10n.lessonDiscussionPrompts,
+                        subtitle: l10n.lessonDiscussionPromptsSubtitle,
                       ),
                       const SizedBox(height: 12),
                       AppCard(
@@ -174,8 +176,8 @@ class LessonDetailScreen extends ConsumerWidget {
                       ),
                       const SizedBox(height: 24),
                       SectionHeader(
-                        title: 'Primary sources',
-                        subtitle: 'Authentic references to verify and expand your understanding.',
+                        title: l10n.lessonPrimarySources,
+                        subtitle: l10n.lessonPrimarySourcesSubtitle,
                       ),
                       const SizedBox(height: 12),
                       AppCard(
@@ -183,8 +185,8 @@ class LessonDetailScreen extends ConsumerWidget {
                       ),
                       const SizedBox(height: 24),
                       SectionHeader(
-                        title: 'Study tools',
-                        subtitle: 'Mark progress, save for later, or test your knowledge.',
+                        title: l10n.lessonStudyTools,
+                        subtitle: l10n.lessonStudyToolsSubtitle,
                       ),
                       const SizedBox(height: 12),
                       Wrap(
@@ -192,32 +194,34 @@ class LessonDetailScreen extends ConsumerWidget {
                         runSpacing: 12,
                         children: [
                           PillButton(
-                            label: 'Mark done',
+                            label: l10n.markDone,
                             onPressed: () async {
                               final service = await ref.read(progressServiceProvider.future);
                               await service.mark(contentId: lesson.id, percent: 1);
+                              ref.invalidate(overallProgressProvider);
+                              ref.invalidate(progressEntriesProvider);
                               if (context.mounted) {
                                 ScaffoldMessenger.of(context).showSnackBar(
-                                  const SnackBar(content: Text('Marked as completed')),
+                                  SnackBar(content: Text(l10n.markDoneSuccess)),
                                 );
                               }
                             },
                           ),
                           PillButton(
-                            label: 'Bookmark',
+                            label: l10n.bookmarkLabel,
                             variant: PillButtonVariant.secondary,
                             onPressed: () async {
                               final toggle = ref.read(bookmarkToggleProvider);
                               await toggle(lesson.id);
                               if (context.mounted) {
                                 ScaffoldMessenger.of(context).showSnackBar(
-                                  const SnackBar(content: Text('Bookmark updated')),
+                                  SnackBar(content: Text(l10n.bookmarkUpdated)),
                                 );
                               }
                             },
                           ),
                           PillButton(
-                            label: 'Take quiz',
+                            label: l10n.takeQuiz,
                             variant: PillButtonVariant.secondary,
                             onPressed: () => showModalBottomSheet<void>(
                               context: context,

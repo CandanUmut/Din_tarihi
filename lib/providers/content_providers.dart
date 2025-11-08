@@ -16,19 +16,19 @@ final contentServiceProvider = Provider<ContentService>((ref) {
 final searchQueryProvider = StateProvider<String>((ref) => '');
 
 final lessonCardsProvider = FutureProvider.autoDispose((ref) async {
-  final locale = ref.watch(localeProvider)?.languageCode ?? 'en';
+  final locale = ref.watch(localeProvider).languageCode;
   final service = ref.watch(contentServiceProvider);
   return service.lessonCards(locale);
 });
 
 final bookSectionsProvider = FutureProvider.autoDispose((ref) async {
-  final locale = ref.watch(localeProvider)?.languageCode ?? 'en';
+  final locale = ref.watch(localeProvider).languageCode;
   final service = ref.watch(contentServiceProvider);
   return service.bookSections(locale);
 });
 
 final searchResultsProvider = FutureProvider.autoDispose.family((ref, String query) async {
-  final locale = ref.watch(localeProvider)?.languageCode ?? 'en';
+  final locale = ref.watch(localeProvider).languageCode;
   final service = ref.watch(contentServiceProvider);
   return service.search(locale, query);
 });

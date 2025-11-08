@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../../l10n/app_localizations.dart';
 import '../../widgets/app_card.dart';
 import '../../widgets/progress_ring.dart';
 
@@ -12,6 +13,7 @@ class ProgressHeader extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
+    final l10n = AppLocalizations.of(context);
     return AppCard(
       gradient: LinearGradient(
         colors: [
@@ -41,7 +43,7 @@ class ProgressHeader extends StatelessWidget {
                   ),
                   const SizedBox(height: 8),
                   Text(
-                    'Stay consistent — every completed lesson updates this tracker instantly.',
+                    l10n.progressHeaderHint,
                     style: theme.textTheme.bodyMedium?.copyWith(
                       color: theme.colorScheme.onPrimaryContainer.withOpacity(0.9),
                     ),
@@ -65,7 +67,7 @@ class ProgressHeader extends StatelessWidget {
                     ),
                     const SizedBox(height: 8),
                     Text(
-                      'Stay consistent — every completed lesson updates this tracker instantly.',
+                      l10n.progressHeaderHint,
                       style: theme.textTheme.bodyMedium?.copyWith(
                         color: theme.colorScheme.onPrimaryContainer.withOpacity(0.9),
                       ),

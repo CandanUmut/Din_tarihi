@@ -1,0 +1,315 @@
+[
+  {
+    "id": "adam",
+    "name": "Hz. Âdem",
+    "title": "First human and prophet",
+    "era": "Primordial creation",
+    "region": "Garden to early earth",
+    "summary": "Placeholder summary describing Adam's creation, covenant, and descent to earth while emphasising repentance and divine mercy.",
+    "themes": [
+      "creation",
+      "repentance",
+      "family"
+    ],
+    "key_events": [
+      {
+        "title": "Creation from clay",
+        "description": "Placeholder detail about being fashioned from clay and honoured by the angels."
+      },
+      {
+        "title": "Life in the garden",
+        "description": "Placeholder note on stewardship, the command, and the whisper of Shaytan."
+      },
+      {
+        "title": "Descent to earth",
+        "description": "Placeholder insight on repentance, dua, and becoming a khalifah."
+      }
+    ],
+    "virtues": [
+      "Sincere tawbah",
+      "Gratitude for divine guidance",
+      "Family leadership"
+    ],
+    "study_prompts": [
+      "How does Adam's tawbah model hope after mistakes?",
+      "What does khilafah mean in daily life?"
+    ],
+    "further_reading": [
+      "Qur'an 2:30-39",
+      "Al-Tabari, Tarih al-Rusul wa-l-Muluk"
+    ]
+  },
+  {
+    "id": "nuh",
+    "name": "Hz. Nûh",
+    "title": "Caller to steadfast tawhid",
+    "era": "Ancient flood era",
+    "region": "Mesopotamian valleys",
+    "summary": "Placeholder overview of Nuh's nine hundred and fifty years of da'wah, construction of the ark, and covenant renewal.",
+    "themes": [
+      "perseverance",
+      "community",
+      "rescue"
+    ],
+    "key_events": [
+      {
+        "title": "Persistent da'wah",
+        "description": "Placeholder about calling people day and night for generations."
+      },
+      {
+        "title": "Building the ark",
+        "description": "Placeholder line on revelation guiding construction while people mocked."
+      },
+      {
+        "title": "Flood and new covenant",
+        "description": "Placeholder note on deliverance of believers and renewal of humanity's trust."
+      }
+    ],
+    "virtues": [
+      "Patience under rejection",
+      "Reliance on Allah",
+      "Leadership in crisis"
+    ],
+    "study_prompts": [
+      "Where do we need Nûh's patience today?"
+    ],
+    "further_reading": [
+      "Qur'an 11:25-49",
+      "Ibn Kathir, Stories of the Prophets"
+    ]
+  },
+  {
+    "id": "ibrahim",
+    "name": "Hz. İbrâhîm",
+    "title": "Father of prophets",
+    "era": "Middle Bronze Age",
+    "region": "Iraq, Sham, Hijaz",
+    "summary": "Placeholder summary on migration for tawhid, rebuilding the Ka'bah with Ismail, and testing through sacrifice.",
+    "themes": [
+      "migration",
+      "sacrifice",
+      "family"
+    ],
+    "key_events": [
+      {
+        "title": "Breaking idols",
+        "description": "Placeholder about courageous stand for monotheism before Nimrod."
+      },
+      {
+        "title": "Hijrah to blessed lands",
+        "description": "Placeholder on journeys through Sham and to the Ka'bah valley."
+      },
+      {
+        "title": "Building the Ka'bah",
+        "description": "Placeholder about raising the foundations with Ismail and making dua for future communities."
+      }
+    ],
+    "virtues": [
+      "Tawakkul",
+      "Hospitality",
+      "Visionary leadership"
+    ],
+    "study_prompts": [
+      "Which of Ibrahim's duas resonate with your family?"
+    ],
+    "further_reading": [
+      "Qur'an 2:124-141",
+      "Sahih al-Bukhari, Book of Prophets"
+    ]
+  },
+  {
+    "id": "musa",
+    "name": "Hz. Mûsâ",
+    "title": "Liberator and lawgiver",
+    "era": "Late Bronze Age",
+    "region": "Egypt and Sinai",
+    "summary": "Placeholder narrative on confronting Pharaoh, the exodus, Sinai revelation, and formation of Bani Isra'il.",
+    "themes": [
+      "justice",
+      "revelation",
+      "leadership"
+    ],
+    "key_events": [
+      {
+        "title": "Call at the burning bush",
+        "description": "Placeholder detail on divine mission and support from Harun."
+      },
+      {
+        "title": "Confronting Pharaoh",
+        "description": "Placeholder note on signs, patience, and liberation of the oppressed."
+      },
+      {
+        "title": "Receiving the Torah",
+        "description": "Placeholder reflection on covenant law and community discipline."
+      }
+    ],
+    "virtues": [
+      "Courage against tyranny",
+      "Commitment to knowledge",
+      "Service to community"
+    ],
+    "study_prompts": [
+      "How does Musa's story shape Muslim advocacy for justice?"
+    ],
+    "further_reading": [
+      "Qur'an 20:9-99",
+      "Exodus 1-20"
+    ]
+  },
+  {
+    "id": "dawud",
+    "name": "Hz. Dâvûd",
+    "title": "Prophet-king of justice",
+    "era": "Iron Age",
+    "region": "Jerusalem and Levant",
+    "summary": "Placeholder profile on defeating Jalut, reciting the Zabur, and establishing balanced governance.",
+    "themes": [
+      "courage",
+      "devotion",
+      "governance"
+    ],
+    "key_events": [
+      {
+        "title": "Victory over Jalut",
+        "description": "Placeholder mention of courage and Allah's support in battle."
+      },
+      {
+        "title": "Zabur recitations",
+        "description": "Placeholder on psalms that softened hearts and mountains joining in dhikr."
+      },
+      {
+        "title": "Judging with fairness",
+        "description": "Placeholder insight on combining worship with wise governance."
+      }
+    ],
+    "virtues": [
+      "Night worship",
+      "Fair judgments",
+      "Humility with power"
+    ],
+    "study_prompts": [
+      "What makes Dawud's leadership balanced?"
+    ],
+    "further_reading": [
+      "Qur'an 38:17-30",
+      "2 Samuel 5-7"
+    ]
+  },
+  {
+    "id": "sulayman",
+    "name": "Hz. Sulaymân",
+    "title": "Wise ruler and miracle worker",
+    "era": "Iron Age",
+    "region": "Jerusalem and Arabian Peninsula",
+    "summary": "Placeholder description on knowledge of language, governance with jinn, and the story of Bilqis.",
+    "themes": [
+      "wisdom",
+      "gratitude",
+      "miracles"
+    ],
+    "key_events": [
+      {
+        "title": "Gifted with comprehensive knowledge",
+        "description": "Placeholder note on understanding creation and leading with justice."
+      },
+      {
+        "title": "Commanding the winds and jinn",
+        "description": "Placeholder detail on extraordinary resources used for worship."
+      },
+      {
+        "title": "Queen of Sheba",
+        "description": "Placeholder summary of Bilqis recognising tawhid and joining a just order."
+      }
+    ],
+    "virtues": [
+      "Gratitude",
+      "Strategic governance",
+      "Humility"
+    ],
+    "study_prompts": [
+      "How can Sulayman's gratitude guide modern leadership?"
+    ],
+    "further_reading": [
+      "Qur'an 27:15-44",
+      "1 Kings 3-10"
+    ]
+  },
+  {
+    "id": "isa",
+    "name": "Hz. ʿÎsâ",
+    "title": "Messiah and servant of Allah",
+    "era": "1st century CE",
+    "region": "Galilee, Jerusalem",
+    "summary": "Placeholder exploration of miraculous birth, compassionate teachings, and promise of return.",
+    "themes": [
+      "mercy",
+      "miracles",
+      "disciples"
+    ],
+    "key_events": [
+      {
+        "title": "Miraculous birth",
+        "description": "Placeholder on Maryam's devotion and divine sign."
+      },
+      {
+        "title": "Healing and teaching",
+        "description": "Placeholder detail on restoring health and preaching tawhid."
+      },
+      {
+        "title": "Elevation",
+        "description": "Placeholder note on Allah raising Isa and the promise of return."
+      }
+    ],
+    "virtues": [
+      "Compassion",
+      "Zuhd",
+      "Reliance on Allah"
+    ],
+    "study_prompts": [
+      "How does Isa's story build bridges with other faiths?"
+    ],
+    "further_reading": [
+      "Qur'an 3:45-53",
+      "Gospel of Luke, chapters 1-6"
+    ]
+  },
+  {
+    "id": "muhammad",
+    "name": "Hz. Muhammad ﷺ",
+    "title": "Seal of the prophets",
+    "era": "6th-7th century CE",
+    "region": "Makkah and Madinah",
+    "summary": "Placeholder overview of the Qur'anic revelation, Hijrah, and building a community of mercy.",
+    "themes": [
+      "mercy",
+      "revelation",
+      "community"
+    ],
+    "key_events": [
+      {
+        "title": "Revelation in Hira",
+        "description": "Placeholder account of first revelation and mission."
+      },
+      {
+        "title": "Hijrah to Madinah",
+        "description": "Placeholder on building a pluralistic constitution and brotherhood."
+      },
+      {
+        "title": "Farewell sermon",
+        "description": "Placeholder message of justice, unity, and final guidance."
+      }
+    ],
+    "virtues": [
+      "Rahmah",
+      "Justice",
+      "Resilience"
+    ],
+    "study_prompts": [
+      "Which prophetic trait of Muhammad ﷺ do you want to embody this week?"
+    ],
+    "further_reading": [
+      "Qur'an 48:1-29",
+      "Ibn Hisham, Sirah"
+    ]
+  }
+]

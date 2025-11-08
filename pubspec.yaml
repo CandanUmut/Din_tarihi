@@ -43,3 +43,5 @@ flutter:
     - assets/content/tr/cards/lesson_cards.json
     - assets/content/en/book/
     - assets/content/tr/book/
+    - assets/content/en/history/
+    - assets/content/tr/history/

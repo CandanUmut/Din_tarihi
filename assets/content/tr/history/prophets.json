@@ -1,0 +1,315 @@
+[
+  {
+    "id": "adam",
+    "name": "Hz. Âdem",
+    "title": "İlk insan ve peygamber",
+    "era": "İlk yaratılış",
+    "region": "Cennet ve yeryüzünün başlangıcı",
+    "summary": "Âdem'in yaratılışı, misakı ve tövbeyle yeryüzüne inişini anlatan taslak özet.",
+    "themes": [
+      "yaratılış",
+      "tevbe",
+      "aile"
+    ],
+    "key_events": [
+      {
+        "title": "Topraktan yaratılış",
+        "description": "Meleklerin secdeyle onurlandırdığı yaratılış anlatımı için yer tutucu."
+      },
+      {
+        "title": "Cennette yaşam",
+        "description": "Halifelik görevi, emir ve şeytanın vesvesesi üzerine taslak not."
+      },
+      {
+        "title": "Yeryüzüne iniş",
+        "description": "Tevbe, dua ve yeryüzünde halife oluş üzerine taslak açıklama."
+      }
+    ],
+    "virtues": [
+      "İçten tevbe",
+      "Hidayete şükür",
+      "Aile rehberliği"
+    ],
+    "study_prompts": [
+      "Âdem'in tevbesi hatalardan sonra nasıl umut verir?",
+      "Halifelik günlük hayatta ne ifade eder?"
+    ],
+    "further_reading": [
+      "Bakara 2:30-39",
+      "Taberi, Tarih"
+    ]
+  },
+  {
+    "id": "nuh",
+    "name": "Hz. Nûh",
+    "title": "Sebat eden tevhid davetçisi",
+    "era": "Tufan dönemi",
+    "region": "Mezopotamya vadileri",
+    "summary": "Nûh'un asırlar süren daveti, geminin inşası ve ahdin yenilenmesine dair taslak özet.",
+    "themes": [
+      "sebat",
+      "toplum",
+      "kurtuluş"
+    ],
+    "key_events": [
+      {
+        "title": "Gece gündüz davet",
+        "description": "Nesiller boyunca süren tebliği anlatan yer tutucu."
+      },
+      {
+        "title": "Geminini inşası",
+        "description": "Vahyin rehberliğinde alaylara rağmen gemi yapımına dair taslak satır."
+      },
+      {
+        "title": "Tufan ve ahdin yenilenmesi",
+        "description": "Müminlerin kurtuluşu ve insanlığın sözünün tazelenmesi üzerine not."
+      }
+    ],
+    "virtues": [
+      "Redde karşı sabır",
+      "Allah'a tevekkül",
+      "Kriz anında liderlik"
+    ],
+    "study_prompts": [
+      "Bugün Nûh'un sabrına nerede ihtiyaç var?"
+    ],
+    "further_reading": [
+      "Hud 11:25-49",
+      "İbn Kesîr, Kısasü'l-Enbiya"
+    ]
+  },
+  {
+    "id": "ibrahim",
+    "name": "Hz. İbrâhîm",
+    "title": "Peygamberlerin babası",
+    "era": "Orta Tunç Çağı",
+    "region": "Irak, Şam, Hicaz",
+    "summary": "Tevhid için hicret, İsmail ile Kabe'yi inşa ve kurban imtihanına dair taslak anlatım.",
+    "themes": [
+      "hicret",
+      "kurban",
+      "aile"
+    ],
+    "key_events": [
+      {
+        "title": "Putları kırmak",
+        "description": "Nemrud karşısında tevhide cesurca şahitlik eden sahne için yer tutucu."
+      },
+      {
+        "title": "Mübarek diyarlara hicret",
+        "description": "Şam toprakları ve Kabe vadisine yolculukları anlatan taslak."
+      },
+      {
+        "title": "Kabe'nin temellerini yükseltmek",
+        "description": "İsmail ile duvarları yükseltme ve gelecek ümmetlere dua etme üzerine not."
+      }
+    ],
+    "virtues": [
+      "Tevekkül",
+      "Misafirperverlik",
+      "Ufuk sahibi liderlik"
+    ],
+    "study_prompts": [
+      "İbrâhîm'in hangi duaları ailenle örtüşüyor?"
+    ],
+    "further_reading": [
+      "Bakara 2:124-141",
+      "Buhari, Enbiya Kitabı"
+    ]
+  },
+  {
+    "id": "musa",
+    "name": "Hz. Mûsâ",
+    "title": "Özgürleştirici ve şeriat taşıyıcısı",
+    "era": "Geç Tunç Çağı",
+    "region": "Mısır ve Sina",
+    "summary": "Firavun'la yüzleşme, hicret, Tûr vahyi ve İsrailoğulları'nın inşasına dair taslak betimleme.",
+    "themes": [
+      "adalet",
+      "vahiy",
+      "liderlik"
+    ],
+    "key_events": [
+      {
+        "title": "Tûr'da çağrı",
+        "description": "Harun'un destek olduğu ilahi görevi anlatan yer tutucu."
+      },
+      {
+        "title": "Firavun'la mücadele",
+        "description": "Ayetler, sabır ve mazlumların kurtuluşuna dair taslak."
+      },
+      {
+        "title": "Tevrat'ın verilmesi",
+        "description": "Ahdin şartları ve topluluk disiplinine ilişkin taslak yorum."
+      }
+    ],
+    "virtues": [
+      "Zulme karşı cesaret",
+      "İlme adanmışlık",
+      "Topluma hizmet"
+    ],
+    "study_prompts": [
+      "Mûsâ'nın kıssası adalet savunusunu nasıl besler?"
+    ],
+    "further_reading": [
+      "Tâhâ 20:9-99",
+      "Çıkış 1-20"
+    ]
+  },
+  {
+    "id": "dawud",
+    "name": "Hz. Dâvûd",
+    "title": "Adil peygamber-kral",
+    "era": "Demir Çağı",
+    "region": "Kudüs ve Levant",
+    "summary": "Calut'u mağlup etmesi, Zebur kıraati ve dengeli yönetimine dair taslak profil.",
+    "themes": [
+      "cesaret",
+      "zikir",
+      "yönetim"
+    ],
+    "key_events": [
+      {
+        "title": "Calut'a karşı zafer",
+        "description": "Savaşta cesaret ve ilahi yardım için yer tutucu."
+      },
+      {
+        "title": "Zebur tilaveti",
+        "description": "Dağların ve kuşların zikirle eşlik ettiği kıraate dair taslak."
+      },
+      {
+        "title": "Adil hüküm",
+        "description": "İbadetle yönetimi dengeleyen hikmetli kararlar üzerine not."
+      }
+    ],
+    "virtues": [
+      "Gece ibadeti",
+      "Adil kararlar",
+      "Güçle tevazu"
+    ],
+    "study_prompts": [
+      "Dâvûd'un liderliğini dengeli yapan nedir?"
+    ],
+    "further_reading": [
+      "Sad 38:17-30",
+      "II. Samuel 5-7"
+    ]
+  },
+  {
+    "id": "sulayman",
+    "name": "Hz. Sulaymân",
+    "title": "Hikmet sahibi yönetici",
+    "era": "Demir Çağı",
+    "region": "Kudüs ve Arabistan",
+    "summary": "Dillerin bilinmesi, cinlerle yönetim ve Belkıs kıssasına dair taslak açıklama.",
+    "themes": [
+      "hikmet",
+      "şükür",
+      "mucize"
+    ],
+    "key_events": [
+      {
+        "title": "Kapsayıcı ilim hediyesi",
+        "description": "Yaratılışı anlamak ve adaletle yönetmek üzerine not."
+      },
+      {
+        "title": "Rüzgâr ve cinlere hüküm",
+        "description": "İbadet için kullanılan olağanüstü imkanlara dair taslak."
+      },
+      {
+        "title": "Belkıs'ın teslimiyeti",
+        "description": "Sebâ melikesinin tevhide yönelişini anlatan yer tutucu."
+      }
+    ],
+    "virtues": [
+      "Şükür",
+      "Stratejik yönetim",
+      "Tevazu"
+    ],
+    "study_prompts": [
+      "Sulaymân'ın şükrü modern liderliğe nasıl ilham verir?"
+    ],
+    "further_reading": [
+      "Neml 27:15-44",
+      "I. Krallar 3-10"
+    ]
+  },
+  {
+    "id": "isa",
+    "name": "Hz. ʿÎsâ",
+    "title": "Mesih ve Allah'ın kulu",
+    "era": "1. yüzyıl",
+    "region": "Celile ve Kudüs",
+    "summary": "Mucizevi doğum, merhametli öğretiler ve dönüş vaadine dair taslak metin.",
+    "themes": [
+      "merhamet",
+      "mucize",
+      "havâriler"
+    ],
+    "key_events": [
+      {
+        "title": "Mucizevi doğum",
+        "description": "Meryem'in teslimiyeti ve ilahi işaret üzerine not."
+      },
+      {
+        "title": "Şifa ve tebliğ",
+        "description": "İnananları iyileştirme ve tevhidi duyurmaya dair taslak."
+      },
+      {
+        "title": "Yükseliş",
+        "description": "Allah'ın Îsâ'yı yükseltmesi ve dönüş vaadine ilişkin açıklama."
+      }
+    ],
+    "virtues": [
+      "Şefkat",
+      "Zühd",
+      "Tevekkül"
+    ],
+    "study_prompts": [
+      "Îsâ'nın kıssası diğer dinlerle köprü kurmayı nasıl destekler?"
+    ],
+    "further_reading": [
+      "Âl-i İmrân 3:45-53",
+      "Luka İncili 1-6"
+    ]
+  },
+  {
+    "id": "muhammad",
+    "name": "Hz. Muhammed ﷺ",
+    "title": "Peygamberlerin son halkası",
+    "era": "6-7. yüzyıllar",
+    "region": "Mekke ve Medine",
+    "summary": "Kur'an vahyi, hicret ve merhamet toplumu inşasına dair taslak özet.",
+    "themes": [
+      "rahmet",
+      "vahiy",
+      "toplum"
+    ],
+    "key_events": [
+      {
+        "title": "Hira'da vahiy",
+        "description": "İlk vahiy ve risalet görevi üzerine yer tutucu."
+      },
+      {
+        "title": "Medine'ye hicret",
+        "description": "Çoğulcu sözleşme ve kardeşlik inşasına dair taslak."
+      },
+      {
+        "title": "Veda hutbesi",
+        "description": "Adalet, birlik ve son öğütleri öne çıkaran not."
+      }
+    ],
+    "virtues": [
+      "Rahmet",
+      "Adalet",
+      "Sebat"
+    ],
+    "study_prompts": [
+      "Bu hafta Peygamberimizin hangi vasfını hayatına taşımak istersin?"
+    ],
+    "further_reading": [
+      "Fetih 48:1-29",
+      "İbn Hişam, Sîre"
+    ]
+  }
+]
