@@ -9,7 +9,7 @@ class ProgressRing extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    final clamped = percent.clamp(0, 1);
+    final clamped = percent.clamp(0.0, 1.0);
     return Column(
       mainAxisSize: MainAxisSize.min,
       children: [
