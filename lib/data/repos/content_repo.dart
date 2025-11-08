@@ -60,10 +60,12 @@ class ContentRepository {
     'en': [
       'assets/content/en/book/part1_foundations.md',
       'assets/content/en/book/part2_prophets.md',
+      'assets/content/en/book/part3_civilizations.md',
     ],
     'tr': [
       'assets/content/tr/book/part1_temeller.md',
       'assets/content/tr/book/part2_peygamberler.md',
+      'assets/content/tr/book/part3_medeniyetler.md',
     ],
   };
 }

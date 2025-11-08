@@ -1,5 +1,3 @@
-import 'package:collection/collection.dart';
-
 import '../../core/utils/date_utils.dart';
 import '../local/dao/progress_dao.dart';
 import '../models/progress.dart';
@@ -9,12 +7,19 @@ class ProgressRepository {
 
   final ProgressDao _dao;
 
-  Future<double> overallPercent() async {
+  Future<List<Progress>> all() {
+    return _dao.fetchAll();
+  }
+
+  Future<double> completionRate({required int totalContent}) async {
     final items = await _dao.fetchAll();
-    if (items.isEmpty) {
+    if (items.isEmpty || totalContent <= 0) {
       return 0;
     }
-    return items.map((e) => e.percent).average;
+    final sum = items.fold<double>(0, (value, element) => value + element.percent);
+    final denominator = totalContent > items.length ? totalContent : items.length;
+    final ratio = sum / denominator;
+    return ratio.clamp(0, 1);
   }
 
   Future<Progress?> getByContent(String contentId) async {

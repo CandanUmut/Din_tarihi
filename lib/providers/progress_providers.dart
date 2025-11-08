@@ -1,8 +1,10 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../data/local/dao/progress_dao.dart';
+import '../data/models/progress.dart';
 import '../data/repos/progress_repo.dart';
 import '../domain/services/progress_service.dart';
+import 'content_providers.dart';
 import 'prefs_providers.dart';
 
 final progressDaoProvider = FutureProvider<ProgressDao>((ref) async {
@@ -20,7 +22,16 @@ final progressServiceProvider = FutureProvider<ProgressService>((ref) async {
   return ProgressService(repo);
 });
 
-final overallProgressProvider = FutureProvider<double>((ref) async {
+final progressEntriesProvider = FutureProvider<List<Progress>>((ref) async {
   final service = await ref.watch(progressServiceProvider.future);
-  return service.overall();
+  return service.allProgress();
+});
+
+final overallProgressProvider = FutureProvider<double>((ref) async {
+  final lessons = await ref.watch(lessonCardsProvider.future);
+  if (lessons.isEmpty) {
+    return 0;
+  }
+  final service = await ref.watch(progressServiceProvider.future);
+  return service.completionRate(lessons.length);
 });

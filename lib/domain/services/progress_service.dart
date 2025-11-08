@@ -1,3 +1,4 @@
+import '../../data/models/progress.dart';
 import '../../data/repos/progress_repo.dart';
 
 class ProgressService {
@@ -5,11 +6,15 @@ class ProgressService {
 
   final ProgressRepository _repo;
 
-  Future<double> overall() {
-    return _repo.overallPercent();
-  }
-
   Future<void> mark({required String contentId, required double percent}) {
     return _repo.markCompleted(contentId: contentId, percent: percent);
+  }
+
+  Future<double> completionRate(int totalContent) {
+    return _repo.completionRate(totalContent: totalContent);
+  }
+
+  Future<List<Progress>> allProgress() {
+    return _repo.all();
   }
 }
